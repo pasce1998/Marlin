@@ -1373,11 +1373,11 @@
 #define Y_BED_SIZE 230
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS 0
-#define Y_MIN_POS 0
+#define X_MIN_POS -45.15
+#define Y_MIN_POS -8.28
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE + 15 // Extended max to allow the probe to reach more of the bed.
-#define Y_MAX_POS Y_BED_SIZE
+#define X_MAX_POS X_BED_SIZE - 45.15 + 15 // Extended max to allow the probe to reach more of the bed.
+#define Y_MAX_POS Y_BED_SIZE - 8.28
 #define Z_MAX_POS 250
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
